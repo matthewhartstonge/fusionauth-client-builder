@@ -14,9 +14,6 @@
       "typeArguments" : [ {
         "type" : "UUID"
       } ]
-    },
-    "description" : {
-      "type" : "String"
     }
   }
 }

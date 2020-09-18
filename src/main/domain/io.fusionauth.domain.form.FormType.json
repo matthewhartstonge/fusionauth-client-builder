@@ -2,14 +2,5 @@
   "packageName" : "io.fusionauth.domain.form",
   "type" : "FormType",
   "description" : "/**\n * @author Daniel DeGroff\n */\n",
-  "enum" : [ {
-    "name" : "registration",
-    "args" : [ "" ]
-  }, {
-    "name" : "adminRegistrationEdit",
-    "args" : [ "registration." ]
-  }, {
-    "name" : "adminUserEdit",
-    "args" : [ "user." ]
-  } ]
+  "enum" : [ "registration", "adminRegistrationEdit", "adminUserEdit" ]
 }

@@ -1,0 +1,10 @@
+{
+  "packageName" : "io.fusionauth.domain.api.user",
+  "type" : "RegistrationEditRequest",
+  "description" : "/**\n * @author Brett Guy\n */\n",
+  "fields" : {
+    "userRegistration" : {
+      "type" : "UserRegistration"
+    }
+  }
+}
