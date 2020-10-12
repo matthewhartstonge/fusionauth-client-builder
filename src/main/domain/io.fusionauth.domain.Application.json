@@ -33,6 +33,9 @@
     "emailConfiguration" : {
       "type" : "ApplicationEmailConfiguration"
     },
+    "formConfiguration" : {
+      "type" : "ApplicationFormConfiguration"
+    },
     "id" : {
       "type" : "UUID"
     },
@@ -65,9 +68,6 @@
     },
     "registrationDeletePolicy" : {
       "type" : "ApplicationRegistrationDeletePolicy"
-    },
-    "formConfiguration.registrationFormId" : {
-      "type" : "UUID"
     },
     "roles" : {
       "type" : "List",

@@ -43,6 +43,9 @@
     "familyConfiguration" : {
       "type" : "FamilyConfiguration"
     },
+    "formConfiguration" : {
+      "type" : "TenantFormConfiguration"
+    },
     "httpSessionMaxInactiveInterval" : {
       "type" : "int"
     },
@@ -84,9 +87,6 @@
     },
     "userDeletePolicy" : {
       "type" : "TenantUserDeletePolicy"
-    },
-    "userEditFormId" : {
-      "type" : "UUID"
     }
   }
 }
