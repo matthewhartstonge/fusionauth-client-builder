@@ -9,7 +9,7 @@
     } ]
   } ],
   "fields" : {
-    "userFormId" : {
+    "adminUserFormId" : {
       "type" : "UUID"
     }
   }
