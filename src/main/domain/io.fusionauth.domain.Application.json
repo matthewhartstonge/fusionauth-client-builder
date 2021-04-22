@@ -87,6 +87,9 @@
     "tenantId" : {
       "type" : "UUID"
     },
+    "themeId" : {
+      "type" : "UUID"
+    },
     "verificationEmailTemplateId" : {
       "type" : "UUID"
     },
