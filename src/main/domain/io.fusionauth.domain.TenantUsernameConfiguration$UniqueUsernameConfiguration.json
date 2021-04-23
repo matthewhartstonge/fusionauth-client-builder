@@ -11,9 +11,6 @@
     } ]
   } ],
   "fields" : {
-    "appendPolicy" : {
-      "type" : "UniqueUsernameAppendPolicy"
-    },
     "numberOfDigits" : {
       "type" : "int"
     }
