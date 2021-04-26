@@ -29,6 +29,9 @@
     "emailSend" : {
       "type" : "String"
     },
+    "emailVerificationRequired" : {
+      "type" : "String"
+    },
     "emailVerify" : {
       "type" : "String"
     },
@@ -93,6 +96,9 @@
       "type" : "String"
     },
     "registrationSend" : {
+      "type" : "String"
+    },
+    "registrationVerificationRequired" : {
       "type" : "String"
     },
     "registrationVerify" : {
