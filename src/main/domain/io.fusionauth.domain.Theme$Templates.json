@@ -26,7 +26,7 @@
     "emailComplete" : {
       "type" : "String"
     },
-    "emailSend" : {
+    "emailSent" : {
       "type" : "String"
     },
     "emailVerificationRequired" : {
@@ -95,7 +95,7 @@
     "registrationComplete" : {
       "type" : "String"
     },
-    "registrationSend" : {
+    "registrationSent" : {
       "type" : "String"
     },
     "registrationVerificationRequired" : {
@@ -105,6 +105,12 @@
       "type" : "String"
     },
     "samlv2Logout" : {
+      "type" : "String"
+    },
+    "emailSend" : {
+      "type" : "String"
+    },
+    "registrationSend" : {
       "type" : "String"
     }
   }
