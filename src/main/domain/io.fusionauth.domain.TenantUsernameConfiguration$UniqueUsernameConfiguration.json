@@ -13,6 +13,9 @@
   "fields" : {
     "numberOfDigits" : {
       "type" : "int"
+    },
+    "separator" : {
+      "type" : "char"
     }
   }
 }
