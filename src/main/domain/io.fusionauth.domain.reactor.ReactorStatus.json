@@ -12,6 +12,9 @@
     "advancedRegistrationForms" : {
       "type" : "ReactorFeatureStatus"
     },
+    "applicationThemes" : {
+      "type" : "ReactorFeatureStatus"
+    },
     "breachedPasswordDetection" : {
       "type" : "ReactorFeatureStatus"
     },
