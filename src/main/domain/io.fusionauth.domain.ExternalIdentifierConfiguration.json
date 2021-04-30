@@ -30,6 +30,9 @@
     "emailVerificationIdTimeToLiveInSeconds" : {
       "type" : "int"
     },
+    "emailVerificationOneTimeCodeGenerator" : {
+      "type" : "SecureGeneratorConfiguration"
+    },
     "externalAuthenticationIdTimeToLiveInSeconds" : {
       "type" : "int"
     },
