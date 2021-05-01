@@ -3,11 +3,11 @@
   "type" : "UserResponse",
   "description" : "/**\n * User API response object.\n *\n * @author Brian Pontarelli\n */\n",
   "fields" : {
-    "user" : {
-      "type" : "User"
-    },
     "token" : {
       "type" : "String"
+    },
+    "user" : {
+      "type" : "User"
     }
   }
 }

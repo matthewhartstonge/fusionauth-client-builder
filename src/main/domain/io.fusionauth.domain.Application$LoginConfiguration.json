@@ -17,8 +17,8 @@
     "requireAuthentication" : {
       "type" : "boolean"
     },
-    "unverifiedEmailBehavior" : {
-      "type" : "UnverifiedBehavior"
+    "unverified" : {
+      "type" : "ApplicationUnverifiedConfiguration"
     }
   }
 }

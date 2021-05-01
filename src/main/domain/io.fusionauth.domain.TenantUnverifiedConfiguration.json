@@ -1,19 +1,19 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "TenantLoginConfiguration",
+  "type" : "TenantUnverifiedConfiguration",
   "description" : "/**\n * @author Daniel DeGroff\n */\n",
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "TenantLoginConfiguration"
+      "type" : "TenantUnverifiedConfiguration"
     } ]
   } ],
   "fields" : {
-    "requireAuthentication" : {
-      "type" : "boolean"
+    "email" : {
+      "type" : "UnverifiedBehavior"
     },
-    "unverified" : {
-      "type" : "TenantUnverifiedConfiguration"
+    "whenGated" : {
+      "type" : "UnverifiedGatedOptions"
     }
   }
 }
