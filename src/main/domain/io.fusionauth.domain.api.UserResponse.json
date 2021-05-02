@@ -8,6 +8,9 @@
     },
     "user" : {
       "type" : "User"
+    },
+    "verificationId" : {
+      "type" : "String"
     }
   }
 }
