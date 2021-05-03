@@ -14,13 +14,13 @@
   "errorResponse": "Errors",
   "anonymous": true,
   "params": [
-        {
-          "name": "request",
-          "comments": [
-            "The request that contains the verificationId and optional one-time use code paired with the verificationId."
-          ],
-          "type": "body",
-          "javaType": "VerifyEmailRequest"
-        }
+    {
+      "name": "request",
+      "comments": [
+        "The request that contains the verificationId and optional one-time use code paired with the verificationId."
+      ],
+      "type": "body",
+      "javaType": "VerifyEmailRequest"
+    }
   ]
 }
