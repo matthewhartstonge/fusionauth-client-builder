@@ -51,6 +51,9 @@
     "registrationVerificationIdTimeToLiveInSeconds" : {
       "type" : "int"
     },
+    "registrationVerificationOneTimeCodeGenerator" : {
+      "type" : "SecureGeneratorConfiguration"
+    },
     "samlv2AuthNRequestIdTimeToLiveInSeconds" : {
       "type" : "int"
     },
