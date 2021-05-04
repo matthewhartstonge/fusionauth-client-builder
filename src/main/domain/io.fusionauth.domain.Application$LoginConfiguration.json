@@ -16,9 +16,6 @@
     },
     "requireAuthentication" : {
       "type" : "boolean"
-    },
-    "unverified" : {
-      "type" : "ApplicationUnverifiedConfiguration"
     }
   }
 }

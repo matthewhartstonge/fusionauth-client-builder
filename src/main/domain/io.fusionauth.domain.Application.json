@@ -90,8 +90,14 @@
     "themeId" : {
       "type" : "UUID"
     },
+    "unverified" : {
+      "type" : "RegistrationUnverifiedOptions"
+    },
     "verificationEmailTemplateId" : {
       "type" : "UUID"
+    },
+    "verificationStrategy" : {
+      "type" : "VerificationStrategy"
     },
     "verifyRegistration" : {
       "type" : "boolean"

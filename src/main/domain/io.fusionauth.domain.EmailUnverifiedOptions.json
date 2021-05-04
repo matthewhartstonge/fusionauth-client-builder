@@ -1,22 +1,19 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "UnverifiedGatedOptions",
+  "type" : "EmailUnverifiedOptions",
   "description" : "/**\n * @author Daniel DeGroff\n */\n",
-  "extends" : [ {
-    "type" : "Enableable"
-  } ],
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "UnverifiedGatedOptions"
+      "type" : "EmailUnverifiedOptions"
     } ]
   } ],
   "fields" : {
-    "allowEmailChange" : {
+    "allowEmailChangeWhenGated" : {
       "type" : "boolean"
     },
-    "verificationStrategy" : {
-      "type" : "VerificationStrategy"
+    "behavior" : {
+      "type" : "UnverifiedBehavior"
     }
   }
 }

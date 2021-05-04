@@ -12,8 +12,11 @@
     "registration" : {
       "type" : "UnverifiedBehavior"
     },
+    "verificationStrategy" : {
+      "type" : "VerificationStrategy"
+    },
     "whenGated" : {
-      "type" : "UnverifiedGatedOptions"
+      "type" : "RegistrationUnverifiedOptions"
     }
   }
 }

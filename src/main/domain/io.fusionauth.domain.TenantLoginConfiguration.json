@@ -11,9 +11,6 @@
   "fields" : {
     "requireAuthentication" : {
       "type" : "boolean"
-    },
-    "unverified" : {
-      "type" : "TenantUnverifiedConfiguration"
     }
   }
 }
