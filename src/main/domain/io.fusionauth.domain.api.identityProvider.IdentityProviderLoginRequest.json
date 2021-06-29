@@ -23,6 +23,9 @@
     "identityProviderId" : {
       "type" : "UUID"
     },
+    "loginOnlyWhenLinked" : {
+      "type" : "boolean"
+    },
     "encodedJWT" : {
       "type" : "String"
     }
