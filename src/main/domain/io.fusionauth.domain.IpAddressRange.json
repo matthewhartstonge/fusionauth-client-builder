@@ -1,0 +1,31 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "IpAddressRange",
+  "description" : "/**\n * @author Brett Guy\n */\n",
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "IpAddressRange"
+    } ]
+  } ],
+  "fields" : {
+    "endIpAddress" : {
+      "type" : "String"
+    },
+    "id" : {
+      "type" : "UUID"
+    },
+    "insertInstant" : {
+      "type" : "ZonedDateTime"
+    },
+    "lastUpdateInstant" : {
+      "type" : "ZonedDateTime"
+    },
+    "mode" : {
+      "type" : "AddressRangeMode"
+    },
+    "startIpAddress" : {
+      "type" : "String"
+    }
+  }
+}

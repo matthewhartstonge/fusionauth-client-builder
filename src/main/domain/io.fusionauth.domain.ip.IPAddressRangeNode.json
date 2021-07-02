@@ -1,0 +1,25 @@
+{
+  "packageName" : "io.fusionauth.domain.ip",
+  "type" : "IPAddressRangeNode",
+  "description" : "/**\n * @author Brett Guy\n */\n",
+  "implements" : [ {
+    "type" : "Comparable",
+    "typeArguments" : [ {
+      "type" : "IPAddressRangeNode"
+    } ]
+  } ],
+  "fields" : {
+    "endIpAddress" : {
+      "type" : "long"
+    },
+    "startIpAddress" : {
+      "type" : "long"
+    },
+    "left" : {
+      "type" : "IPAddressRangeNode"
+    },
+    "right" : {
+      "type" : "IPAddressRangeNode"
+    }
+  }
+}
