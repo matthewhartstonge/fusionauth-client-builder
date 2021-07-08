@@ -47,6 +47,12 @@
         "type" : "Object"
       } ]
     },
+    "threatsDetected" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "AuthenticationThreats"
+      } ]
+    },
     "token" : {
       "type" : "String"
     },
