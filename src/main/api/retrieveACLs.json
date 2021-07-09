@@ -1,0 +1,10 @@
+{
+  "uri": "/api/ip-acl",
+  "comments": [
+    "Retrieves all ACLs."
+  ],
+  "method": "get",
+  "methodName": "retrieveACLs",
+  "successResponse": "IPAccessControlListResponse",
+  "errorResponse": "Void"
+}

@@ -1,0 +1,20 @@
+{
+  "uri": "/api/ip-acl",
+  "comments": [
+    "Retrieves the ACL with the given Id."
+  ],
+  "method": "get",
+  "methodName": "retrieveACL",
+  "successResponse": "IPAccessControlListResponse",
+  "errorResponse": "Void",
+  "params": [
+    {
+      "name": "formId",
+      "comments": [
+        "The Id of the ACL."
+      ],
+      "type": "urlSegment",
+      "javaType": "UUID"
+    }
+  ]
+}

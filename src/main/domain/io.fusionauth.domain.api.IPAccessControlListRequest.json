@@ -1,10 +1,10 @@
 {
   "packageName" : "io.fusionauth.domain.api",
-  "type" : "IPAddressRangeRequest",
+  "type" : "IPAccessControlListRequest",
   "description" : "/**\n * @author Brett Guy\n */\n",
   "fields" : {
-    "ipAddressRange" : {
-      "type" : "IpAddressRange"
+    "ipAccessControlList" : {
+      "type" : "IPAccessControlList"
     }
   }
 }

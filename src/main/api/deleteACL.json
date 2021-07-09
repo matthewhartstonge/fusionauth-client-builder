@@ -1,0 +1,20 @@
+{
+  "uri": "/api/ip-acl",
+  "comments": [
+    "Deletes the ACL for the given Id."
+  ],
+  "method": "delete",
+  "methodName": "deleteACL",
+  "successResponse": "Void",
+  "errorResponse": "Errors",
+  "params": [
+    {
+      "name": "ipAccessControlListId",
+      "comments": [
+        "The Id of the ACL to delete."
+      ],
+      "type": "urlSegment",
+      "javaType": "UUID"
+    }
+  ]
+}

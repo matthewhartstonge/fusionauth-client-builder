@@ -1,6 +1,6 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "AddressRangeMode",
+  "type" : "IPAccessControlListMode",
   "description" : "/**\n * @author Brett Guy\n */\n",
-  "enum" : [ "ALLOW", "BLOCK" ]
+  "enum" : [ "Allow", "Block" ]
 }

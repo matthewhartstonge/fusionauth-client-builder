@@ -1,0 +1,44 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "IPAccessControlList",
+  "description" : "/**\n * @author Brett Guy\n */\n",
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "IPAccessControlList"
+    } ]
+  }, {
+    "type" : "_InternalJSONColumn"
+  } ],
+  "fields" : {
+    "data" : {
+      "type" : "Map",
+      "typeArguments" : [ {
+        "type" : "String"
+      }, {
+        "type" : "Object"
+      } ]
+    },
+    "defaultAction" : {
+      "type" : "IPAccessControlListMode"
+    },
+    "exceptions" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "IPAccessControlListException"
+      } ]
+    },
+    "id" : {
+      "type" : "UUID"
+    },
+    "insertInstant" : {
+      "type" : "ZonedDateTime"
+    },
+    "lastUpdateInstant" : {
+      "type" : "ZonedDateTime"
+    },
+    "name" : {
+      "type" : "String"
+    }
+  }
+}
