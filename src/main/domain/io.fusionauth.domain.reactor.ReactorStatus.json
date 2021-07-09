@@ -24,7 +24,7 @@
     "entityManagement" : {
       "type" : "ReactorFeatureStatus"
     },
-    "ipLocation" : {
+    "threatDetection" : {
       "type" : "ReactorFeatureStatus"
     },
     "licensed" : {
