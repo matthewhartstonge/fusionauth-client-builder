@@ -77,6 +77,8 @@ import io.fusionauth.domain.api.IdentityProviderRequest;
 import io.fusionauth.domain.api.IdentityProviderResponse;
 import io.fusionauth.domain.api.IntegrationRequest;
 import io.fusionauth.domain.api.IntegrationResponse;
+import io.fusionauth.domain.api.IPAccessControlListRequest;
+import io.fusionauth.domain.api.IPAccessControlListResponse;
 import io.fusionauth.domain.api.KeyRequest;
 import io.fusionauth.domain.api.KeyResponse;
 import io.fusionauth.domain.api.LambdaRequest;
