@@ -9,10 +9,10 @@
     } ]
   } ],
   "fields" : {
-    "endIpAddress" : {
+    "endIPAddress" : {
       "type" : "long"
     },
-    "startIpAddress" : {
+    "startIPAddress" : {
       "type" : "long"
     },
     "left" : {
