@@ -1,6 +1,0 @@
-{
-  "packageName" : "io.fusionauth.domain.ip",
-  "type" : "IPAddressRangeTree",
-  "description" : "/**\n * An implementation of an Interval Tree used to store IP address ranges.\n * <p>\n * https://en.wikipedia.org/wiki/Interval_tree\n */\n",
-  "fields" : { }
-}
