@@ -1,11 +1,11 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "IPAccessControlListException",
-  "description" : "// I think we could omit \"Exception\" from the name. Really this is just an IP range I think.\n",
+  "type" : "IPRange",
+  "description" : "/**\n * @author Brett Guy\n */\n",
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "IPAccessControlListException"
+      "type" : "IPRange"
     } ]
   } ],
   "fields" : {
