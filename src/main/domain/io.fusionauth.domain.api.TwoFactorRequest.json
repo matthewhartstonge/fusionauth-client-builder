@@ -18,6 +18,9 @@
     "email" : {
       "type" : "String"
     },
+    "eventInfo" : {
+      "type" : "EventInfo"
+    },
     "method" : {
       "type" : "String"
     },

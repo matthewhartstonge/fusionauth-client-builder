@@ -6,6 +6,12 @@
     "applicationId" : {
       "type" : "UUID"
     },
+    "deviceTrustId" : {
+      "type" : "String"
+    },
+    "eventInfo" : {
+      "type" : "EventInfo"
+    },
     "ipAddress" : {
       "type" : "String"
     },
