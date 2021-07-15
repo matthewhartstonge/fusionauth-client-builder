@@ -1,0 +1,16 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "TenantRateLimitingConfiguration",
+  "description" : "/**\n * @author Daniel DeGroff\n */\n",
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "TenantRateLimitingConfiguration"
+    } ]
+  } ],
+  "fields" : {
+    "forgotPassword" : {
+      "type" : "RateLimitedRequestConfiguration"
+    }
+  }
+}

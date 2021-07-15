@@ -91,6 +91,9 @@
     "passwordValidationRules" : {
       "type" : "PasswordValidationRules"
     },
+    "rateLimitingConfiguration" : {
+      "type" : "TenantRateLimitingConfiguration"
+    },
     "state" : {
       "type" : "ObjectState"
     },
