@@ -97,6 +97,9 @@
     "themeId" : {
       "type" : "UUID"
     },
+    "threatDetectionConfiguration" : {
+      "type" : "ThreatDetectionConfiguration"
+    },
     "userDeletePolicy" : {
       "type" : "TenantUserDeletePolicy"
     },

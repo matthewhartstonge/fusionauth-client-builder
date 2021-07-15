@@ -1,0 +1,27 @@
+{
+  "packageName" : "io.fusionauth.domain",
+  "type" : "CaptchaConfiguration",
+  "extends" : [ {
+    "type" : "Enableable"
+  } ],
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "CaptchaConfiguration"
+    } ]
+  } ],
+  "fields" : {
+    "captchaMethod" : {
+      "type" : "CaptchaMethod"
+    },
+    "secretKey" : {
+      "type" : "String"
+    },
+    "siteKey" : {
+      "type" : "String"
+    },
+    "threshold" : {
+      "type" : "double"
+    }
+  }
+}
