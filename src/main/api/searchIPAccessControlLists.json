@@ -1,10 +1,10 @@
 {
   "uri": "/api/ip-acl/search",
   "comments": [
-    "Searches the ACLs with the specified criteria and pagination."
+    "Searches the IP Access Control Lists with the specified criteria and pagination."
   ],
   "method": "post",
-  "methodName": "searchACLs",
+  "methodName": "searchIPAccessControlLists",
   "successResponse": "IPAccessControlListSearchResponse",
   "errorResponse": "Void",
   "params": [

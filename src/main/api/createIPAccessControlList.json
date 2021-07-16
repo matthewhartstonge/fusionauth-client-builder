@@ -1,17 +1,17 @@
 {
   "uri": "/api/ip-acl",
   "comments": [
-    "Creates an ACL. You can optionally specify an Id for the ACL. If not provided one will be generated."
+    "Creates an IP Access Control List. You can optionally specify an Id on this create request, if one is not provided one will be generated."
   ],
   "method": "post",
-  "methodName": "createACL",
+  "methodName": "createIPAccessControlList",
   "successResponse": "IPAccessControlListResponse",
   "errorResponse": "Errors",
   "params": [
     {
       "name": "accessControlListId",
       "comments": [
-        "(Optional) The Id for the ACL. If not provided a secure random UUID will be generated."
+        "(Optional) The Id for the IP Access Control List. If not provided a secure random UUID will be generated."
       ],
       "type": "urlSegment",
       "javaType": "UUID"
@@ -19,7 +19,7 @@
     {
       "name": "request",
       "comments": [
-        "The request object that contains all of the information used to create the IP ACL."
+        "The request object that contains all of the information used to create the IP Access Control List."
       ],
       "type": "body",
       "javaType": "IPAccessControlListRequest"

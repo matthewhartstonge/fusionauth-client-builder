@@ -1,17 +1,17 @@
 {
   "uri": "/api/ip-acl",
   "comments": [
-    "Updates the ACL with the given Id."
+    "Updates the IP Access Control List with the given Id."
   ],
   "method": "put",
-  "methodName": "updateACL",
+  "methodName": "updateIPAccessControlList",
   "successResponse": "IPAccessControlListResponse",
   "errorResponse": "Errors",
   "params": [
     {
       "name": "accessControlListId",
       "comments": [
-        "The Id of the ACL to update."
+        "The Id of the IP Access Control List to update."
       ],
       "type": "urlSegment",
       "javaType": "UUID"
@@ -19,7 +19,7 @@
     {
       "name": "request",
       "comments": [
-        "The request that contains all of the new ACL information."
+        "The request that contains all of the new IP Access Control List information."
       ],
       "type": "body",
       "javaType": "IPAccessControlListRequest"
