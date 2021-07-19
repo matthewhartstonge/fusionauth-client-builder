@@ -3,26 +3,8 @@
   "type" : "EventType",
   "description" : "/**\n * Models the event types that FusionAuth produces.\n *\n * @author Brian Pontarelli\n */\n",
   "enum" : [ {
-    "name" : "UserDelete",
-    "args" : [ "user.delete" ]
-  }, {
-    "name" : "UserCreate",
-    "args" : [ "user.create" ]
-  }, {
-    "name" : "UserUpdate",
-    "args" : [ "user.update" ]
-  }, {
-    "name" : "UserDeactivate",
-    "args" : [ "user.deactivate" ]
-  }, {
-    "name" : "UserBulkCreate",
-    "args" : [ "user.bulk.create" ]
-  }, {
-    "name" : "UserReactivate",
-    "args" : [ "user.reactivate" ]
-  }, {
-    "name" : "UserAction",
-    "args" : [ "user.action" ]
+    "name" : "JWTPublicKeyUpdate",
+    "args" : [ "jwt.public-key.update" ]
   }, {
     "name" : "JWTRefreshTokenRevoke",
     "args" : [ "jwt.refresh-token.revoke" ]
@@ -30,32 +12,104 @@
     "name" : "JWTRefresh",
     "args" : [ "jwt.refresh" ]
   }, {
-    "name" : "JWTPublicKeyUpdate",
-    "args" : [ "jwt.public-key.update" ]
+    "name" : "AuditLogCreate",
+    "args" : [ "audit-log.create" ]
   }, {
-    "name" : "UserLoginSuccess",
-    "args" : [ "user.login.success" ]
+    "name" : "EventLogCreate",
+    "args" : [ "event-log.create" ]
   }, {
-    "name" : "UserLoginFailed",
-    "args" : [ "user.login.failed" ]
+    "name" : "KickstartSuccess",
+    "args" : [ "kickstart.success" ]
   }, {
-    "name" : "UserRegistrationCreate",
-    "args" : [ "user.registration.create" ]
+    "name" : "UserAction",
+    "args" : [ "user.action" ]
   }, {
-    "name" : "UserRegistrationUpdate",
-    "args" : [ "user.registration.update" ]
+    "name" : "UserBulkCreate",
+    "args" : [ "user.bulk.create" ]
   }, {
-    "name" : "UserRegistrationDelete",
-    "args" : [ "user.registration.delete" ]
+    "name" : "UserCreate",
+    "args" : [ "user.create" ]
   }, {
-    "name" : "UserRegistrationVerified",
-    "args" : [ "user.registration.verified" ]
+    "name" : "UserCreateComplete",
+    "args" : [ "user.create.complete" ]
+  }, {
+    "name" : "UserDeactivate",
+    "args" : [ "user.deactivate" ]
+  }, {
+    "name" : "UserDelete",
+    "args" : [ "user.delete" ]
+  }, {
+    "name" : "UserDeleteComplete",
+    "args" : [ "user.delete.complete" ]
+  }, {
+    "name" : "UserEmailDuplicate",
+    "args" : [ "user.email.duplicate" ]
+  }, {
+    "name" : "UserEmailUpdate",
+    "args" : [ "user.email.update" ]
   }, {
     "name" : "UserEmailVerified",
     "args" : [ "user.email.verified" ]
   }, {
+    "name" : "UserLoginFailed",
+    "args" : [ "user.login.failed" ]
+  }, {
+    "name" : "UserLoginNewDevice",
+    "args" : [ "user.login.new-device" ]
+  }, {
+    "name" : "UserLoginSuccess",
+    "args" : [ "user.login.success" ]
+  }, {
+    "name" : "UserLoginSuspect",
+    "args" : [ "user.login.suspect" ]
+  }, {
     "name" : "UserPasswordBreach",
     "args" : [ "user.password.breach" ]
+  }, {
+    "name" : "UserPasswordResetRequest",
+    "args" : [ "user.password.reset.request" ]
+  }, {
+    "name" : "UserPasswordResetSent",
+    "args" : [ "user.password.reset.sent" ]
+  }, {
+    "name" : "UserPasswordResetSuccess",
+    "args" : [ "user.password.reset.success" ]
+  }, {
+    "name" : "UserReactivate",
+    "args" : [ "user.reactivate" ]
+  }, {
+    "name" : "UserRegistrationCreate",
+    "args" : [ "user.registration.create" ]
+  }, {
+    "name" : "UserRegistrationCreateComplete",
+    "args" : [ "user.registration.create.complete" ]
+  }, {
+    "name" : "UserRegistrationDelete",
+    "args" : [ "user.registration.delete" ]
+  }, {
+    "name" : "UserRegistrationDeleteComplete",
+    "args" : [ "user.registration.delete.complete" ]
+  }, {
+    "name" : "UserRegistrationUpdate",
+    "args" : [ "user.registration.update" ]
+  }, {
+    "name" : "UserRegistrationUpdateComplete",
+    "args" : [ "user.registration.update.complete" ]
+  }, {
+    "name" : "UserRegistrationVerified",
+    "args" : [ "user.registration.verified" ]
+  }, {
+    "name" : "UserTwoFactorMethodAdd",
+    "args" : [ "user.two-factor.method.add" ]
+  }, {
+    "name" : "UserTwoFactorMethodRemove",
+    "args" : [ "user.two-factor.method.remove" ]
+  }, {
+    "name" : "UserUpdate",
+    "args" : [ "user.update" ]
+  }, {
+    "name" : "UserUpdateComplete",
+    "args" : [ "user.update.complete" ]
   }, {
     "name" : "Test",
     "args" : [ "test" ]
