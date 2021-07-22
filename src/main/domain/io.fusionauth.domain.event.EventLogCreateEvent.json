@@ -11,6 +11,8 @@
       "type" : "EventLogCreateEvent"
     } ]
   }, {
+    "type" : "GlobalEvent"
+  }, {
     "type" : "NonTransactionalEvent"
   } ],
   "fields" : {

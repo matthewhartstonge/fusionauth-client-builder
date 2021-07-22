@@ -42,6 +42,36 @@
     "unverified" : {
       "type" : "EmailUnverifiedOptions"
     },
+    "userDuplicateEmailEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userEmailChangedEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userEmailVerifiedEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userLoginNewDeviceEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userLoginSuspectEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userPasswordResetSuccessEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userPasswordUpdateEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userRegistrationVerifiedEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userTwoFactorMethodAddEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userTwoFactorMethodRemoveEmailTemplateId" : {
+      "type" : "UUID"
+    },
     "username" : {
       "type" : "String"
     },

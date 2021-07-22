@@ -6,14 +6,17 @@
     "createInstant" : {
       "type" : "ZonedDateTime"
     },
-    "eventInfo" : {
-      "type" : "EventInfo"
-    },
     "id" : {
       "type" : "UUID"
     },
+    "info" : {
+      "type" : "EventInfo"
+    },
     "tenantId" : {
       "type" : "UUID"
+    },
+    "type" : {
+      "type" : "EventType"
     }
   }
 }

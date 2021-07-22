@@ -1,0 +1,6 @@
+{
+  "packageName" : "io.fusionauth.domain.event",
+  "type" : "GlobalEvent",
+  "description" : "/**\n * A marker interface indicating this event is not scoped to a tenant and will be sent to all webhooks.\n *\n * @author Daniel DeGroff\n */\n",
+  "fields" : { }
+}

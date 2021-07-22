@@ -66,14 +66,17 @@
     "name" : "UserPasswordBreach",
     "args" : [ "user.password.breach" ]
   }, {
-    "name" : "UserPasswordResetRequest",
-    "args" : [ "user.password.reset.request" ]
+    "name" : "UserPasswordResetSend",
+    "args" : [ "user.password.reset.send" ]
   }, {
-    "name" : "UserPasswordResetSent",
-    "args" : [ "user.password.reset.sent" ]
+    "name" : "UserPasswordResetStart",
+    "args" : [ "user.password.reset.start" ]
   }, {
     "name" : "UserPasswordResetSuccess",
     "args" : [ "user.password.reset.success" ]
+  }, {
+    "name" : "UserPasswordUpdate",
+    "args" : [ "user.password.update" ]
   }, {
     "name" : "UserReactivate",
     "args" : [ "user.reactivate" ]
