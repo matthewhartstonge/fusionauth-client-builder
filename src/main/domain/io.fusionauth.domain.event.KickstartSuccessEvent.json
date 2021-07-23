@@ -11,6 +11,8 @@
       "type" : "KickstartSuccessEvent"
     } ]
   }, {
+    "type" : "InstanceEvent"
+  }, {
     "type" : "NonTransactionalEvent"
   } ],
   "fields" : {

@@ -15,14 +15,35 @@
     "defaultFromName" : {
       "type" : "String"
     },
+    "duplicateEmailEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "emailUpdateEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "emailVerifiedEmailTemplateId" : {
+      "type" : "UUID"
+    },
     "forgotPasswordEmailTemplateId" : {
       "type" : "UUID"
     },
     "host" : {
       "type" : "String"
     },
+    "loginNewDeviceEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "loginSuspectEmailTemplateId" : {
+      "type" : "UUID"
+    },
     "password" : {
       "type" : "String"
+    },
+    "passwordResetSuccessEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "passwordUpdateEmailTemplateId" : {
+      "type" : "UUID"
     },
     "passwordlessEmailTemplateId" : {
       "type" : "UUID"
@@ -39,38 +60,14 @@
     "setPasswordEmailTemplateId" : {
       "type" : "UUID"
     },
+    "twoFactorMethodAddEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "twoFactorMethodRemoveEmailTemplateId" : {
+      "type" : "UUID"
+    },
     "unverified" : {
       "type" : "EmailUnverifiedOptions"
-    },
-    "userDuplicateEmailEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userEmailChangedEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userEmailVerifiedEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userLoginNewDeviceEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userLoginSuspectEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userPasswordResetSuccessEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userPasswordUpdateEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userRegistrationVerifiedEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userTwoFactorMethodAddEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userTwoFactorMethodRemoveEmailTemplateId" : {
-      "type" : "UUID"
     },
     "username" : {
       "type" : "String"
