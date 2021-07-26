@@ -15,6 +15,18 @@
     "forgotPassword" : {
       "type" : "RateLimitedRequestConfiguration"
     },
+    "sendEmailVerification" : {
+      "type" : "RateLimitedRequestConfiguration"
+    },
+    "sendPasswordless" : {
+      "type" : "RateLimitedRequestConfiguration"
+    },
+    "sendRegistrationVerification" : {
+      "type" : "RateLimitedRequestConfiguration"
+    },
+    "sendTwoFactor" : {
+      "type" : "RateLimitedRequestConfiguration"
+    },
     "resendEmailVerification" : {
       "type" : "RateLimitedRequestConfiguration"
     },
