@@ -26,21 +26,6 @@
     },
     "sendTwoFactor" : {
       "type" : "RateLimitedRequestConfiguration"
-    },
-    "resendEmailVerification" : {
-      "type" : "RateLimitedRequestConfiguration"
-    },
-    "resendRegistrationVerification" : {
-      "type" : "RateLimitedRequestConfiguration"
-    },
-    "sendPasswordlessEmail" : {
-      "type" : "RateLimitedRequestConfiguration"
-    },
-    "sendTwoFactorEmail" : {
-      "type" : "RateLimitedRequestConfiguration"
-    },
-    "sendTwoFactorSMS" : {
-      "type" : "RateLimitedRequestConfiguration"
     }
   }
 }

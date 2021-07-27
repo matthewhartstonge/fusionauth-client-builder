@@ -11,7 +11,19 @@
     "emailVerificationEmailTemplateId" : {
       "type" : "UUID"
     },
+    "emailVerifiedEmailTemplateId" : {
+      "type" : "UUID"
+    },
     "forgotPasswordEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "loginNewDeviceEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "loginSuspectEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "passwordResetSuccessEmailTemplateId" : {
       "type" : "UUID"
     },
     "passwordlessEmailTemplateId" : {
