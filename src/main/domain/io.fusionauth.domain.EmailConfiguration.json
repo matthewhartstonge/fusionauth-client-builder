@@ -15,9 +15,6 @@
     "defaultFromName" : {
       "type" : "String"
     },
-    "duplicateEmailEmailTemplateId" : {
-      "type" : "UUID"
-    },
     "emailUpdateEmailTemplateId" : {
       "type" : "UUID"
     },
@@ -68,6 +65,12 @@
     },
     "unverified" : {
       "type" : "EmailUnverifiedOptions"
+    },
+    "userCreateDuplicateEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "userUpdateDuplicateEmailTemplateId" : {
+      "type" : "UUID"
     },
     "username" : {
       "type" : "String"

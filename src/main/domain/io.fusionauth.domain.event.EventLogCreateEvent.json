@@ -12,8 +12,6 @@
     } ]
   }, {
     "type" : "InstanceEvent"
-  }, {
-    "type" : "NonTransactionalEvent"
   } ],
   "fields" : {
     "eventLog" : {
