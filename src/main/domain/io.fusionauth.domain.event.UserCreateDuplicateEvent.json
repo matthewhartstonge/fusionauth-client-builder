@@ -23,6 +23,9 @@
     "duplicateUsername" : {
       "type" : "String"
     },
+    "existing" : {
+      "type" : "User"
+    },
     "user" : {
       "type" : "User"
     }
