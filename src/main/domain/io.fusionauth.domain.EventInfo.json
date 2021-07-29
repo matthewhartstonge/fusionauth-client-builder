@@ -26,9 +26,6 @@
     "deviceType" : {
       "type" : "String"
     },
-    "instant" : {
-      "type" : "ZonedDateTime"
-    },
     "ipAddress" : {
       "type" : "String"
     },
