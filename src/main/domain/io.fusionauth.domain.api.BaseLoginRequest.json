@@ -2,15 +2,15 @@
   "packageName" : "io.fusionauth.domain.api",
   "type" : "BaseLoginRequest",
   "description" : "/**\n * @author Daniel DeGroff\n */\n",
+  "extends" : [ {
+    "type" : "BaseEventRequest"
+  } ],
   "fields" : {
     "applicationId" : {
       "type" : "UUID"
     },
     "deviceTrustId" : {
       "type" : "String"
-    },
-    "eventInfo" : {
-      "type" : "EventInfo"
     },
     "ipAddress" : {
       "type" : "String"

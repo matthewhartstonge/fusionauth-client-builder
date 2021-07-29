@@ -2,7 +2,16 @@
   "packageName" : "io.fusionauth.domain.api",
   "type" : "UserRequest",
   "description" : "/**\n * User API request object.\n *\n * @author Brian Pontarelli\n */\n",
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "UserRequest"
+    } ]
+  } ],
   "fields" : {
+    "disableDomainBlock" : {
+      "type" : "boolean"
+    },
     "sendSetPasswordEmail" : {
       "type" : "boolean"
     },

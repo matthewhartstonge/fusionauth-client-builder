@@ -3,6 +3,9 @@
   "type" : "RegistrationRequest",
   "description" : "/**\n * Registration API request object.\n *\n * @author Brian Pontarelli\n */\n",
   "fields" : {
+    "disableDomainBlock" : {
+      "type" : "boolean"
+    },
     "generateAuthenticationToken" : {
       "type" : "boolean"
     },
