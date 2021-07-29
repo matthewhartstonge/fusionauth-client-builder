@@ -14,12 +14,6 @@
     "birthDate" : {
       "type" : "Requirable"
     },
-    "blockedDomains" : {
-      "type" : "Set",
-      "typeArguments" : [ {
-        "type" : "String"
-      } ]
-    },
     "confirmPassword" : {
       "type" : "boolean"
     },

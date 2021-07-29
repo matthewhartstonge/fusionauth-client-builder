@@ -10,6 +10,8 @@
     "typeArguments" : [ {
       "type" : "UserTwoFactorMethodRemoveEvent"
     } ]
+  }, {
+    "type" : "NonTransactionalEvent"
   } ],
   "fields" : {
     "method" : {

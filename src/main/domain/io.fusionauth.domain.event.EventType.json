@@ -42,11 +42,11 @@
     "name" : "UserDeleteComplete",
     "args" : [ "user.delete.complete" ]
   }, {
-    "name" : "UserCreateDuplicate",
-    "args" : [ "user.create.duplicate" ]
+    "name" : "UserLoginIdDuplicateOnCreate",
+    "args" : [ "user.loginId.duplicate.create" ]
   }, {
-    "name" : "UserUpdateDuplicate",
-    "args" : [ "user.update.duplicate" ]
+    "name" : "UserLoginIdDuplicateOnUpdate",
+    "args" : [ "user.loginId.duplicate.update" ]
   }, {
     "name" : "UserEmailUpdate",
     "args" : [ "user.email.update" ]

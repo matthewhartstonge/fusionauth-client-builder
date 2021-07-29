@@ -94,6 +94,9 @@
     "rateLimitingConfiguration" : {
       "type" : "TenantRateLimitingConfiguration"
     },
+    "registrationConfiguration" : {
+      "type" : "TenantRegistrationConfiguration"
+    },
     "state" : {
       "type" : "ObjectState"
     },

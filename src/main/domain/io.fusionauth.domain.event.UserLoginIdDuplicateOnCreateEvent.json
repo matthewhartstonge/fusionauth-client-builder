@@ -1,6 +1,6 @@
 {
   "packageName" : "io.fusionauth.domain.event",
-  "type" : "UserCreateDuplicateEvent",
+  "type" : "UserLoginIdDuplicateOnCreateEvent",
   "description" : "/**\n * Models an event where a user is being created with an \"in-use\" login Id (email or username).\n *\n * @author Daniel DeGroff\n */\n",
   "extends" : [ {
     "type" : "BaseEvent"
@@ -8,7 +8,7 @@
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "UserCreateDuplicateEvent"
+      "type" : "UserLoginIdDuplicateOnCreateEvent"
     } ]
   }, {
     "type" : "NonTransactionalEvent"

@@ -27,6 +27,12 @@
     "host" : {
       "type" : "String"
     },
+    "loginIdInUseOnCreateEmailTemplateId" : {
+      "type" : "UUID"
+    },
+    "loginIdInUseOnUpdateEmailTemplateId" : {
+      "type" : "UUID"
+    },
     "loginNewDeviceEmailTemplateId" : {
       "type" : "UUID"
     },
@@ -65,12 +71,6 @@
     },
     "unverified" : {
       "type" : "EmailUnverifiedOptions"
-    },
-    "userCreateDuplicateEmailTemplateId" : {
-      "type" : "UUID"
-    },
-    "userUpdateDuplicateEmailTemplateId" : {
-      "type" : "UUID"
     },
     "username" : {
       "type" : "String"
