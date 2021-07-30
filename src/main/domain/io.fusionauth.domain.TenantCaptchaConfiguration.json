@@ -1,13 +1,14 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "CaptchaConfiguration",
+  "type" : "TenantCaptchaConfiguration",
+  "description" : "/**\n * @author Brett Pontarelli\n */\n",
   "extends" : [ {
     "type" : "Enableable"
   } ],
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "CaptchaConfiguration"
+      "type" : "TenantCaptchaConfiguration"
     } ]
   } ],
   "fields" : {

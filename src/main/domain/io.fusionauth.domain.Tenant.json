@@ -19,6 +19,9 @@
         "type" : "Object"
       } ]
     },
+    "captchaConfiguration" : {
+      "type" : "TenantCaptchaConfiguration"
+    },
     "configured" : {
       "type" : "boolean"
     },
@@ -102,9 +105,6 @@
     },
     "themeId" : {
       "type" : "UUID"
-    },
-    "threatDetectionConfiguration" : {
-      "type" : "ThreatDetectionConfiguration"
     },
     "userDeletePolicy" : {
       "type" : "TenantUserDeletePolicy"
