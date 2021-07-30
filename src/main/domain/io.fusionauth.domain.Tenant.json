@@ -94,8 +94,8 @@
     "passwordValidationRules" : {
       "type" : "PasswordValidationRules"
     },
-    "rateLimitingConfiguration" : {
-      "type" : "TenantRateLimitingConfiguration"
+    "rateLimitConfiguration" : {
+      "type" : "TenantRateLimitConfiguration"
     },
     "registrationConfiguration" : {
       "type" : "TenantRegistrationConfiguration"

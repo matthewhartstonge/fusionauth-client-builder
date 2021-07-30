@@ -1,11 +1,11 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "TenantRateLimitingConfiguration",
+  "type" : "TenantRateLimitConfiguration",
   "description" : "/**\n * @author Daniel DeGroff\n */\n",
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "TenantRateLimitingConfiguration"
+      "type" : "TenantRateLimitConfiguration"
     } ]
   } ],
   "fields" : {
