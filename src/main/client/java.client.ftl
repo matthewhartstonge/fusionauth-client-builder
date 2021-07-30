@@ -141,6 +141,8 @@ import io.fusionauth.domain.api.identityProvider.IdentityProviderStartLoginRespo
 import io.fusionauth.domain.api.identityProvider.LookupResponse;
 import io.fusionauth.domain.api.jwt.IssueResponse;
 import io.fusionauth.domain.api.jwt.JWTRefreshResponse;
+import io.fusionauth.domain.api.jwt.JWTVendRequest;
+import io.fusionauth.domain.api.jwt.JWTVendResponse;
 import io.fusionauth.domain.api.jwt.RefreshRequest;
 import io.fusionauth.domain.api.jwt.RefreshTokenResponse;
 import io.fusionauth.domain.api.jwt.ValidateResponse;
