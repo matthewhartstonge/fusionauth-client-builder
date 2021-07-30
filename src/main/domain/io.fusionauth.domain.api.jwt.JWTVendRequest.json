@@ -11,6 +11,9 @@
         "type" : "Object"
       } ]
     },
+    "keyId" : {
+      "type" : "UUID"
+    },
     "timeToLiveInSeconds" : {
       "type" : "int"
     }
