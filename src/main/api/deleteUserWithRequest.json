@@ -15,7 +15,7 @@
         "The request object that contains all of the information used to delete the user."
       ],
       "type": "body",
-      "javaType": "UserDeleteRequest"
+      "javaType": "UserDeleteSingleRequest"
     }
   ]
 }
