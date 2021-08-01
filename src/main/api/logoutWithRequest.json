@@ -5,7 +5,7 @@
     "client and revoke the refresh token stored. This API takes the refresh token in the JSON body."
   ],
   "method": "post",
-  "methodName": "logout",
+  "methodName": "logoutWithRequest",
   "successResponse": "Void",
   "errorResponse": "Void",
   "anonymous": true,

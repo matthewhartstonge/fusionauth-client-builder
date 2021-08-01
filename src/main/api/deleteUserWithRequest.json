@@ -10,6 +10,14 @@
   "errorResponse": "Errors",
   "params": [
     {
+      "name": "userId",
+      "comments": [
+        "The Id of the user to delete (required)."
+      ],
+      "type": "urlSegment",
+      "javaType": "UUID"
+    },
+    {
       "name": "request",
       "comments": [
         "The request object that contains all of the information used to delete the user."

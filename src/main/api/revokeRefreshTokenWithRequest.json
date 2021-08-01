@@ -1,0 +1,62 @@
+{
+  "uri": "/api/jwt/refresh",
+  "comments": [
+    "Revokes refresh tokens.",
+    "",
+    "Usage examples:",
+    "  - Delete a single refresh token, pass in only the token.",
+    "      revokeRefreshToken(token)",
+    "",
+    "  - Delete all refresh tokens for a user, pass in only the userId.",
+    "      revokeRefreshToken(null, userId)",
+    "",
+    "  - Delete all refresh tokens for a user for a specific application, pass in both the userId and the applicationId.",
+    "      revokeRefreshToken(null, userId, applicationId)",
+   "",
+    "  - Delete all refresh tokens for an application",
+    "      revokeRefreshToken(null, null, applicationId)",
+    "",
+    "Note: <code>null</code> may be handled differently depending upon the programming language.",
+    "",
+    "See also: (method names may vary by language... but you'll figure it out)",
+    "",
+    " - revokeRefreshTokenById",
+    " - revokeRefreshTokenByToken",
+    " - revokeRefreshTokensByUserId",
+    " - revokeRefreshTokensByApplicationId",
+    " - revokeRefreshTokensByUserIdForApplication"
+  ],
+  "method": "delete",
+  "methodName": "revokeRefreshToken",
+  "successResponse": "Void",
+  "errorResponse": "Errors",
+  "params": [
+    {
+      "name": "token",
+      "parameterName": "token",
+      "comments": [
+        "(Optional) The refresh token to delete."
+      ],
+      "type": "urlParameter",
+      "javaType": "String"
+    },
+    {
+      "name": "userId",
+      "parameterName": "userId",
+      "comments": [
+        "(Optional) The user id whose tokens to delete."
+      ],
+      "type": "urlParameter",
+      "javaType": "UUID"
+    },
+    {
+      "name": "applicationId",
+      "parameterName": "applicationId",
+      "comments": [
+        "(Optional) The application id of the tokens to delete."
+      ],
+      "type": "urlParameter",
+      "javaType": "UUID"
+    }
+  ]
+}

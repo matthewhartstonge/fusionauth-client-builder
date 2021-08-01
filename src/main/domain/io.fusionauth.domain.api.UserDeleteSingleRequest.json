@@ -8,9 +8,6 @@
   "fields" : {
     "hardDelete" : {
       "type" : "boolean"
-    },
-    "userId" : {
-      "type" : "UUID"
     }
   }
 }
