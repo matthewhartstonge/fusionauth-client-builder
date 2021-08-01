@@ -89,6 +89,7 @@ import io.fusionauth.domain.api.LoginRecordSearchRequest;
 import io.fusionauth.domain.api.LoginRecordSearchResponse;
 import io.fusionauth.domain.api.LoginRequest;
 import io.fusionauth.domain.api.LoginResponse;
+import io.fusionauth.domain.api.LogoutRequest;
 import io.fusionauth.domain.api.MemberDeleteRequest;
 import io.fusionauth.domain.api.MemberRequest;
 import io.fusionauth.domain.api.MemberResponse;

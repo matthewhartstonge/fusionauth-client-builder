@@ -1,0 +1,16 @@
+{
+  "packageName" : "io.fusionauth.domain.api",
+  "type" : "LogoutRequest",
+  "description" : "/**\n * Request for the Logout API that can be used as an alternative to URL parameters.\n *\n * @author Brian Pontarelli\n */\n",
+  "extends" : [ {
+    "type" : "BaseEventRequest"
+  } ],
+  "fields" : {
+    "global" : {
+      "type" : "boolean"
+    },
+    "refreshToken" : {
+      "type" : "String"
+    }
+  }
+}
