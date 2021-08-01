@@ -1,6 +1,6 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "IPAccessControlListMode",
+  "type" : "IPAccessControlEntryAction",
   "description" : "/**\n * @author Brett Guy\n */\n",
   "enum" : [ "Allow", "Block" ]
 }
