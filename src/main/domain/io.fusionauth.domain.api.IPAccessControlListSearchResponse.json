@@ -3,7 +3,7 @@
   "type" : "IPAccessControlListSearchResponse",
   "description" : "/**\n * @author Brett Guy\n */\n",
   "fields" : {
-    "acls" : {
+    "ipAccessControlLists" : {
       "type" : "List",
       "typeArguments" : [ {
         "type" : "IPAccessControlList"

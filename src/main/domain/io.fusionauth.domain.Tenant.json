@@ -58,6 +58,9 @@
     "insertInstant" : {
       "type" : "ZonedDateTime"
     },
+    "ipAccessControlListConfiguration" : {
+      "type" : "TenantIPAccessControlListConfiguration"
+    },
     "issuer" : {
       "type" : "String"
     },
