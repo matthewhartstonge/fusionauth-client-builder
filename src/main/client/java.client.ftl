@@ -173,6 +173,7 @@ import io.fusionauth.domain.api.user.ForgotPasswordResponse;
 import io.fusionauth.domain.api.user.ImportRequest;
 import io.fusionauth.domain.api.user.RecentLoginResponse;
 import io.fusionauth.domain.api.user.RefreshTokenImportRequest;
+import io.fusionauth.domain.api.user.RegistrationDeleteRequest;
 import io.fusionauth.domain.api.user.RegistrationRequest;
 import io.fusionauth.domain.api.user.RegistrationResponse;
 import io.fusionauth.domain.api.user.SearchRequest;
