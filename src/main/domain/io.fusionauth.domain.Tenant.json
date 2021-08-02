@@ -19,6 +19,9 @@
         "type" : "Object"
       } ]
     },
+    "accessControlListConfiguration" : {
+      "type" : "TenantAccessControlListConfiguration"
+    },
     "captchaConfiguration" : {
       "type" : "TenantCaptchaConfiguration"
     },
@@ -57,9 +60,6 @@
     },
     "insertInstant" : {
       "type" : "ZonedDateTime"
-    },
-    "ipAccessControlListConfiguration" : {
-      "type" : "TenantIPAccessControlListConfiguration"
     },
     "issuer" : {
       "type" : "String"

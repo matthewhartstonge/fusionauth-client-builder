@@ -1,14 +1,11 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "TenantIPAccessControlListConfiguration",
+  "type" : "TenantAccessControlListConfiguration",
   "description" : "/**\n * @author Brett Guy\n */\n",
-  "extends" : [ {
-    "type" : "Enableable"
-  } ],
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "TenantIPAccessControlListConfiguration"
+      "type" : "TenantAccessControlListConfiguration"
     } ]
   } ],
   "fields" : {
