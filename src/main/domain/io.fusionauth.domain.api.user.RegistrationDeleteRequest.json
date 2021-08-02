@@ -5,5 +5,11 @@
   "extends" : [ {
     "type" : "BaseEventRequest"
   } ],
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "RegistrationDeleteRequest"
+    } ]
+  } ],
   "fields" : { }
 }

@@ -5,6 +5,12 @@
   "extends" : [ {
     "type" : "BaseEventRequest"
   } ],
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "RefreshTokenRevokeRequest"
+    } ]
+  } ],
   "fields" : {
     "applicationId" : {
       "type" : "UUID"
