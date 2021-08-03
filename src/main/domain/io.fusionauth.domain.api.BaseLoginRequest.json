@@ -9,14 +9,14 @@
     "applicationId" : {
       "type" : "UUID"
     },
-    "deviceTrustId" : {
-      "type" : "String"
-    },
     "ipAddress" : {
       "type" : "String"
     },
     "metaData" : {
       "type" : "MetaData"
+    },
+    "newDevice" : {
+      "type" : "boolean"
     },
     "noJWT" : {
       "type" : "boolean"
