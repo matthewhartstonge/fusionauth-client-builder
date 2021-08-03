@@ -36,7 +36,7 @@
     "loginNewDeviceEmailTemplateId" : {
       "type" : "UUID"
     },
-    "loginSuspectEmailTemplateId" : {
+    "loginSuspiciousEmailTemplateId" : {
       "type" : "UUID"
     },
     "password" : {
