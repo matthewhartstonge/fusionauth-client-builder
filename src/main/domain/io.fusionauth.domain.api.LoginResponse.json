@@ -15,6 +15,9 @@
         "type" : "LoginPreventedResponse"
       } ]
     },
+    "authenticationType" : {
+      "type" : "String"
+    },
     "changePasswordId" : {
       "type" : "String"
     },
