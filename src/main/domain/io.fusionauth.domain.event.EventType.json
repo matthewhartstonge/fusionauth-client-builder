@@ -63,8 +63,8 @@
     "name" : "UserLoginSuccess",
     "args" : [ "user.login.success" ]
   }, {
-    "name" : "UserLoginSuspect",
-    "args" : [ "user.login.suspect" ]
+    "name" : "UserLoginSuspicious",
+    "args" : [ "user.login.suspicious" ]
   }, {
     "name" : "UserPasswordBreach",
     "args" : [ "user.password.breach" ]
