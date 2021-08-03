@@ -3,7 +3,7 @@
   "type" : "SystemSSOConfiguration",
   "description" : "/**\n * @author Brett Pontarelli\n */\n",
   "fields" : {
-    "ssoDeviceTrustTimeToLiveInSeconds" : {
+    "deviceTrustTimeToLiveInSeconds" : {
       "type" : "int"
     }
   }
