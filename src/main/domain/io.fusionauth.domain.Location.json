@@ -26,6 +26,9 @@
     },
     "zipcode" : {
       "type" : "String"
+    },
+    "displayString" : {
+      "type" : "String"
     }
   }
 }
