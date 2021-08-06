@@ -19,8 +19,8 @@
         "type" : "Object"
       } ]
     },
-    "accessControlListConfiguration" : {
-      "type" : "TenantAccessControlListConfiguration"
+    "accessControlConfiguration" : {
+      "type" : "TenantAccessControlConfiguration"
     },
     "captchaConfiguration" : {
       "type" : "TenantCaptchaConfiguration"
