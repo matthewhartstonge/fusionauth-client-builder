@@ -12,6 +12,9 @@
     } ]
   } ],
   "fields" : {
+    "applicationId" : {
+      "type" : "UUID"
+    },
     "disableDomainBlock" : {
       "type" : "boolean"
     },

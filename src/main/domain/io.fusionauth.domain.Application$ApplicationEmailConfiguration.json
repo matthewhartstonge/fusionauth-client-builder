@@ -8,6 +8,9 @@
     } ]
   } ],
   "fields" : {
+    "emailUpdateEmailTemplateId" : {
+      "type" : "UUID"
+    },
     "emailVerificationEmailTemplateId" : {
       "type" : "UUID"
     },
